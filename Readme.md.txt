@@ -35,10 +35,10 @@ Text is first cleaned and lemmatized, then tokenized into sequences. These seque
 - Model Training and Testing
 Training and testing were conducted on a sample of cleaned reviews. The model was trained for a specified number of epochs using an 80/20 train-test split. Performance metrics were evaluated on the test set.
 
-- Results(for sample 10000 reviews)
-Accuracy: 0.888
-Training Time: 160.20 seconds
-Testing Time: 5.82 seconds
+- Results(for sample 15000 reviews)
+Accuracy: 0.8976666666666666
+Training Time: 168.220472574234
+Testing Time: 10.29760217666626
 
 Classification metrics showed strong performance across both classes, with balanced precision and recall. Visualizations including accuracy and loss curves, as well as a confusion matrix heatmap, were generated to analyze model performance.
 
